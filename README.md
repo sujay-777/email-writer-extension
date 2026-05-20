@@ -244,25 +244,5 @@ Chrome will load the updated version of the extension.
 
 ---
 
-## Screenshots
 
-Add screenshots for better project presentation.
-
-Recommended screenshots:
-
-- Extension popup interface
-- AI-generated email response
-- Chrome extensions page
-- Example workflow
-
-Example structure:
-
-```bash
-screenshots/
-├── popup.png
-├── generated-reply.png
-└── extension-loaded.png
-```
-
----
 
