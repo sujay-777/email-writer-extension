@@ -1,34 +1,49 @@
-AI Email Writer Chrome Extension
+# AI Email Writer Chrome Extension
 
 An AI-powered Chrome Extension designed to generate professional and context-aware email replies using the Gemini API.
 
 This project demonstrates practical integration of Generative AI into browser extensions while focusing on productivity, usability, and clean user experience.
 
-Overview
+---
+
+## Overview
 
 The AI Email Writer Extension helps users quickly draft professional email responses directly from the browser. By leveraging the Gemini API, the extension can generate intelligent replies based on user prompts in real time.
 
 The project was built to explore:
 
-Chrome Extension Development
-AI API Integration
-Frontend Application Design
-Productivity Automation
-Real-World AI Use Cases
-Features
-Generate AI-powered email replies
-Clean and minimal UI
-Fast response generation
-Easy Chrome integration
-Uses Gemini API for intelligent responses
-Lightweight and simple to use
-Tech Stack
-JavaScript
-HTML
-CSS
-Chrome Extension APIs
-Gemini API
-Project Structure
+- Chrome Extension Development
+- AI API Integration
+- Frontend Application Design
+- Productivity Automation
+- Real-World AI Use Cases
+
+---
+
+## Features
+
+- AI-generated email replies
+- Fast and lightweight extension
+- Clean and minimal user interface
+- Real-time response generation using Gemini API
+- Easy Chrome integration
+- Beginner-friendly setup process
+
+---
+
+## Tech Stack
+
+- JavaScript
+- HTML
+- CSS
+- Chrome Extension APIs
+- Gemini API
+
+---
+
+## Project Structure
+
+```bash
 AI-Email-Writer/
 │
 ├── manifest.json
@@ -42,174 +57,212 @@ AI-Email-Writer/
 │   ├── icon48.png
 │   └── icon128.png
 └── README.md
-Installation Guide
-1. Clone the Repository
-git clone https://github.com/your-username/ai-email-writer-extension.git
-2. Open the Project Folder
-cd ai-email-writer-extension
-3. Add Your Gemini API Key
+```
 
-Open your JavaScript file where the API request is made.
+---
 
-Replace:
-
-const API_KEY = "YOUR_API_KEY";
-
-with:
-
-const API_KEY = "YOUR_GEMINI_API_KEY";
-Getting Gemini API Key
-Step 1
-
-Go to:
-
-https://aistudio.google.com/app/apikey
-Step 2
-
-Sign in with your Google account.
-
-Step 3
-
-Click:
-
-Create API Key
-Step 4
-
-Copy the generated API key.
-
-Step 5
-
-Paste it into your project.
-
-How to Load the Extension in Chrome
-Step 1
-
-Open Chrome and go to:
-
-chrome://extensions/
-Step 2
-
-Enable:
-
-Developer Mode
-
-(top-right corner)
-
-Step 3
-
-Click:
-
-Load Unpacked
-Step 4
-
-Select your project folder.
-
-Step 5
-
-The extension will now appear in Chrome.
-
-How to Create a ZIP File
-Windows
-Right-click the project folder
-Click:
-Compress to ZIP file
-
-OR
-
-Send to → Compressed (zipped) folder
-Mac
-Right-click the project folder
-Click:
-Compress "AI-Email-Writer"
-Local Setup Guide
+## Local Setup Guide
 
 Follow these steps to run the extension on your local system.
 
-Step 1: Download the Project
+### Step 1: Download the Project
 
 Download the project ZIP file from GitHub.
 
 After downloading:
 
-Right-click the ZIP file
-Click:
+1. Right-click the ZIP file
+2. Click:
+
+```text
 Extract All
-Choose a folder location
-Click:
+```
+
+3. Choose a folder location
+4. Click:
+
+```text
 Extract
+```
 
-Now the project folder is ready.
+The project folder is now ready.
 
-Step 2: Add Your Gemini API Key
+---
+
+### Step 2: Add Your Gemini API Key
 
 Open the project folder.
 
-Find the JavaScript file where the Gemini API request is written.
+Locate the JavaScript file where the Gemini API request is configured.
 
 Replace:
 
+```javascript
 const API_KEY = "YOUR_API_KEY";
+```
 
 with your actual Gemini API key:
 
+```javascript
 const API_KEY = "YOUR_GEMINI_API_KEY";
+```
 
-Save the file.
+Save the file after updating the key.
 
-Step 3: Open Chrome Extensions Page
+---
+
+## Getting Gemini API Key
+
+### Step 1
+
+Open:
+
+```text
+https://aistudio.google.com/app/apikey
+```
+
+### Step 2
+
+Sign in using your Google account.
+
+### Step 3
+
+Click:
+
+```text
+Create API Key
+```
+
+### Step 4
+
+Copy the generated API key.
+
+### Step 5
+
+Paste it into the project configuration file.
+
+---
+
+## Loading the Extension in Chrome
+
+### Step 1
 
 Open Google Chrome.
 
 In the address bar, open:
 
+```text
 chrome://extensions/
-Step 4: Enable Developer Mode
+```
 
-At the top-right corner of the page:
+---
+
+### Step 2
 
 Enable:
 
+```text
 Developer Mode
+```
 
-This allows Chrome to load custom extensions.
+from the top-right corner.
 
-Step 5: Load the Extension
+This allows Chrome to load custom extensions locally.
+
+---
+
+### Step 3
 
 Click:
 
+```text
 Load Unpacked
+```
 
-A folder selection window will open.
+A folder selection window will appear.
+
+---
+
+### Step 4
 
 Select the extracted project folder.
 
 Click:
 
+```text
 Select Folder
+```
 
-The extension will now be added to Chrome.
+The extension will now be installed in Chrome.
 
-Step 6: Pin the Extension
-Click the Extensions icon in Chrome toolbar
-Find:
+---
+
+### Step 5
+
+Pin the extension for quick access:
+
+1. Click the Extensions icon in the Chrome toolbar
+2. Find:
+
+```text
 AI Email Writer
-Click the Pin icon
+```
 
-Now the extension will always be visible in the Chrome toolbar.
+3. Click the Pin icon
 
-Step 7: Start Using the Extension
-Open the extension from the toolbar
-Enter your email prompt
-Click generate
-The AI-generated email reply will appear instantly
-Updating the Extension After Code Changes
+The extension will now appear permanently in the toolbar.
 
-Whenever you make changes to the code:
+---
 
-Go to:
+## Using the Extension
+
+1. Open the extension from the Chrome toolbar
+2. Enter your email prompt
+3. Click the generate button
+4. The AI-generated email response will appear instantly
+
+---
+
+## Updating the Extension After Code Changes
+
+Whenever changes are made to the source code:
+
+1. Open:
+
+```text
 chrome://extensions/
-Find your extension
-Click:
-Reload
+```
 
-Chrome will load the latest version of your extension.
+2. Locate the extension
+3. Click:
+
+```text
+Reload
+```
+
+Chrome will load the updated version of the extension.
+
+---
+
+## Screenshots
+
+Add screenshots for better project presentation.
+
+Recommended screenshots:
+
+- Extension popup interface
+- AI-generated email response
+- Chrome extensions page
+- Example workflow
+
+Example structure:
+
+```bash
+screenshots/
+├── popup.png
+├── generated-reply.png
+└── extension-loaded.png
+```
+
+---
+
